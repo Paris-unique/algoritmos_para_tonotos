@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Tarea</title>
+</head>
+<body>
+    <style>
+        .formulario {
+            width: 300px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+    <form class="formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        <label for="email">Correo:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <br>
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <label for="confirmar-password">Confirmar Contraseña:</label>
+        <input type="password" id="confirmar-password" name="confirmar-password" required>
+        <br>
+        <br>
+        <label for="genero">Escoge tu genero:</label>
+        <select name="genero" id="genero">
+            <option value="masc">Hombre</option>
+            <option value="fem">Mujer</option>
+            <option value="nb">No Binario</option>
+            <option value="otro">Otro</option>
+        </select>
+        <button class="formulario" type="submit">Enviar</button>
+
+</body>
+</html>
